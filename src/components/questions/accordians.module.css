@@ -1,0 +1,130 @@
+/* 
+
+    Accordion Component Styling
+
+*/
+
+.headerText{
+    padding: 50px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 66px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: -100px;
+}
+
+.accordion{
+    text-align: center;
+    color: var(--color-white);
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 60px;
+    width: 350px;
+    padding: 25px 0;
+    background-color: var(--color-beige);
+    border-radius: 66px 0;
+    color: var(--color-white);
+    z-index: 1;
+    margin:0 auto -40px auto;
+    position: relative;
+}
+
+.accordion img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+
+.accordion h2{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer{
+    background-color: var(--color-blue);
+    width: 350px;
+    padding: 30px 40px;
+    border-radius: 66px 0;
+    color: var(--color-white);
+    z-index: 1;
+    margin:0 auto;
+    position: relative;
+    top: -50px;
+}
+
+.footerTop{
+    font-size: 30px;
+    text-align: start;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+.footer button{
+    width: 100%;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    height: 50px;
+    border-radius: 30px 0;
+    font-weight: 300;
+    display: block;
+    color: #fff;
+}
+
+.body {
+    padding-top : 20px;
+}
+
+
+
+
+.textblock {
+    display: none;
+   padding: 40px 0 20px 0;
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+/* 
+
+    Accordion Active
+
+*/
+
+
+.accordion.active .textblock{
+    display: block;
+}
+
+
+@media (min-width: 728px) {
+
+    .list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .accordion {
+        width : calc(50% -  30px);
+       
+       
+
+    }
+
+}
+

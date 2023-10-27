@@ -1,0 +1,78 @@
+/* 
+
+    Footer Component Styling
+
+*/
+
+.footer {
+    background-color: var(--color-darkblue);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.footer p {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* 
+
+    Socials
+
+*/
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+.logo .image{
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+
+.icon {
+    color: #fff;
+    font-size: clamp(2.5rem, 4.5vw, 4rem);
+    margin: 0 10px;
+    
+}
+
+.icon:hover{
+    
+    cursor: pointer;
+    
+}
+
+/* 
+
+    Adress
+
+*/
+.address {
+
+    margin-top: 37px;
+    align-items: center;
+    display: flex;
+
+}
+
+.address a{
+
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0;
+    
+}
+
+.address a:hover{
+    
+    color: var(--color-pink);
+    
+}
