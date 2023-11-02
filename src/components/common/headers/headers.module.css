@@ -16,7 +16,7 @@
     z-index: 5;
     text-align: center;
     width: 100%;
-    padding-top: 50%;
+    padding-top: 30%;
     background-color: #34626C80;
     height: 100%;
     color: var(--color-white);
@@ -47,6 +47,6 @@
 
 @media (min-width: 728px){
     .headerText{
-        padding-top: 30%;
+        padding-top: 10%;
     }
 }

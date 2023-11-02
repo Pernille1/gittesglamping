@@ -19,7 +19,7 @@
     font-weight: 300;
     font-size: clamp(1rem, 10vw, 5rem);
     position: absolute;
-    padding-top: 40%;
+    padding-top: 20%;
     color: var(--color-white);
     background-color: #34626C80;
     height: 100%;
@@ -38,6 +38,17 @@
 
     .img{
         height: 75vh;
+    }
+
+    .headerText{
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 1048px){
+
+    .headerText{
+        padding-top: 10%;
     }
 }
 

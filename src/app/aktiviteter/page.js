@@ -1,4 +1,4 @@
-import Accordians from '@/components/questions/accordians'
+import Accordians from '@/components/activities/accordians'
 import Header from '@/components/common/header/header'
 
 const Page = () => {

@@ -3,6 +3,10 @@
     Subscriber Component Styling
 
 */
+.component{
+    background-color: var(--color-blue);
+}
+
 
 .headerText{
     background-color: var(--color-blue);

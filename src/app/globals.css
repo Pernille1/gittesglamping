@@ -22,13 +22,14 @@
   :root {
 
     --color-black: #000;
-    --color-pink: #fa96aa;
-    --color-grey: #D9D9D9;
-    --color-flat: #f7f0f2;
     --color-white: #fff;
+    --color-darkgrey: #707070 ;
+    --color-green:#839B97;
+    --color-greenbeige: #CFD3CE;
+    --color-blue: #34626C;
+    --color-beige: #C6B497;
+    --color-darkblue: #2A4F57;
     --color-shadow: #00000029;
-    --color-background-base : #fff;
-    --color-font-base : #000;
     --main-gutter : 20px;
     
   }
